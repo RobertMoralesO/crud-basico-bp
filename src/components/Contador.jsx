@@ -8,7 +8,7 @@ const Contador = () => {
     const resetear = () => setContador(0)
 
   return (
-    <div>
+    <>
         <hr/>
         <h1>Contador</h1>
         <h1>El valor de la variable contador es: {contador}</h1>
@@ -22,7 +22,7 @@ const Contador = () => {
         <button onClick={decrementar}>Decrementar</button>
 
 
-    </div>
+    </>
   )
 }
 
